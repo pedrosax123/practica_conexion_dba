@@ -1,7 +1,7 @@
 <?php 
 
 
-$pedro = new mysqli("localhots","root","","dba");
+$pedro = new mysqli("localhost","root","","dba");
 
 if ($pedro) {
       echo "bien conectado";
