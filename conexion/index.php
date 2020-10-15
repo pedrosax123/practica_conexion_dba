@@ -1,7 +1,7 @@
 <?php 
 
 
-$pedro = NEW myspli("localhots","root","","dba");
+$pedro = new mysqli("localhots","root","","dba");
 
 if ($pedro) {
       echo "bien conectado";
